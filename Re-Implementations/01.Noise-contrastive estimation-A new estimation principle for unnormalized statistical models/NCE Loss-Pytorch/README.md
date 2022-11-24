@@ -2,9 +2,10 @@
 
 ### Introduction
 
-This is an implementation of  [Noise Contrastive Estimation (NCE)]( http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf ) in PyTorch on 2D dataset. 
+- This is an implementation of[**Noise Contrastive Estimation (NCE) paper**]( http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf ) in **PyTorch on a 2D dataset**. 
 
-NCE is a method to estimate energy based models (EBM)
+## Overview
+- NCE is a method to estimate energy based models (EBM)
 
 $$p_\theta(x) = \frac{\exp[-f_\theta(x)]}{Z(\theta)}$$
 
@@ -12,7 +13,9 @@ where
 
 $$Z(\theta) = \int\exp[-f_\theta(x)]dx$$
 
-is the normalizing constant that is hard to compute. In NCE,  the normalizing constant is treated as a trainable parameter $c=\log Z$. We cannot directly do maximum likelihood estimation (MLE) with $\displaystyle\max_\theta p_\theta(x)$ because $p_\theta(x)$ can simply blow up to infinity by letting  $Z\to0$ (or $c\to -\infty$). Instead, in Noise Contrastive Estimation, we train the energy based model by doing (nonlinear) logistic regression/classification between the data distribution $p_{\mathrm{data}}$ and some noise distribution $q$. 
+is the normalizing constant that is hard to compute. 
+- In NCE,  the normalizing constant is treated as a trainable parameter $c=\log Z$. We cannot directly do maximum likelihood estimation (MLE) with $\displaystyle\max_\theta p_\theta(x)$ because $p_\theta(x)$ can simply blow up to infinity by letting  $Z\to0$ (or $c\to -\infty$). 
+- Instead, in Noise Contrastive Estimation, we train the energy based model by doing (nonlinear) logistic regression/classification between the data distribution $p_{\mathrm{data}}$ and some noise distribution $q$. 
 
 There are three requirements for the noise distribution $q$:
 
