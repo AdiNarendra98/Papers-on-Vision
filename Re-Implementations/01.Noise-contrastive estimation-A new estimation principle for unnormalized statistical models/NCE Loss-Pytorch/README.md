@@ -1,12 +1,13 @@
 # Keras NCE-loss
 
-Keras implemenation of the candidate sampling technique called Noise Contrastive Estimation (NCE). This is a Keras Layer which uses the TF implementation of NCE loss.
+- **Keras implemenation of the candidate sampling technique called Noise Contrastive Estimation (NCE)**. 
+- This is a **Keras Layer which uses the tensorflow implementation of NCE loss**.
 
-*Gutmann, Hyvarinen. Noise-contrastive estimation: A new estimation principle for unnormalized statistical models. AISTATS 2010*
+- <ins>Paper</ins> : [**Gutmann, Hyvarinen. Noise-contrastive estimation: A new estimation principle for unnormalized statistical models. AISTATS 2010**](https://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf)
 
 
 
-NCE Background Document: [http://www.eggie5.com/134-nce-Noise-contrastive-Estimation-Loss](http://www.eggie5.com/134-nce-Noise-contrastive-Estimation-Loss)
+
 
 
 
