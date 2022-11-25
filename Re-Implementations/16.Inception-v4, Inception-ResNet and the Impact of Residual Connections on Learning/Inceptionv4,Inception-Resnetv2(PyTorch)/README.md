@@ -1,10 +1,10 @@
 ## Introduction
-An inofficial PyTorch implementation of [Inception-v4, Inception-ResNet and
-the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261)
+- This is a **PyTorch** implementation of [**Inception-v4, Inception-ResNet and
+the Impact of Residual Connections on Learning**](https://arxiv.org/abs/1602.07261)
 
 ## Models
-+ Inception-v4
-+ Inception-ResNet-v2
++ **Inception-v4**
++ **Inception-ResNet-v2**
 
 ## Analysis
 All the results reported here are based on **this repo**, and 50000 ImageNet **validation** sets。
@@ -15,7 +15,7 @@ All the results reported here are based on **this repo**, and 50000 ImageNet **v
 - [X] inference time (average)
 - [X] bottom10 accuracy
 - [X] Hyper parameters
-- [ ] blacklists
+
 
 + Top-1 and top-5 accuracy **with** blacklisted entities
 
@@ -87,15 +87,8 @@ All the results reported here are based on **this repo**, and 50000 ImageNet **v
 
     ![](./model/inception_resnet_v2_stem.png)
     
- + Overall schema
+ + Overall Structure
  
     ![](./model/inception_resnet_v2.png)    
     
     **The output of the last Inception-ResNet-C layer has no ReLU activation.**
-
-## Reference
-+ [https://github.com/tensorflow/models/tree/master/research/slim/nets](https://github.com/tensorflow/models/tree/master/research/slim/nets)
-+ [https://github.com/tensorflow/models/tree/master/research/inception/inception/data](https://github.com/tensorflow/models/tree/master/research/inception/inception/data)
-+ [https://github.com/Cadene/pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch)
-+ [https://github.com/kentsommer/keras-inceptionV4](https://github.com/kentsommer/keras-inceptionV4)
-+ [https://github.com/Lyken17/pytorch-OpCounter](https://github.com/Lyken17/pytorch-OpCounter)
