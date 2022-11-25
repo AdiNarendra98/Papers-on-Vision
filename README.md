@@ -55,5 +55,5 @@
  
 ## Inspirations
 
-- The primary forces behind this repo were the works of [**Abhisek Das**](https://abhishekdas.com) & [**Aman Chadha**](https://amanchadha.com)
+- The key sources of inspiration for this repo were the works of [**Abhisek Das**](https://abhishekdas.com) & [**Aman Chadha**](https://amanchadha.com)
     
