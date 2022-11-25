@@ -1,5 +1,5 @@
 # Generative Adversarial Networks
-- <ins>Author, Venue & Year</ins>: **Generative Adversarial Networks,Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, NeurIPS 2014**
+- <ins>Author, Venue & Year</ins>: **,Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, NeurIPS 2014**
 
 ### [Original Paper](https://arxiv.org/abs/1406.2661)
 
