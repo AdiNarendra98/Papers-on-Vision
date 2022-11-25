@@ -1,46 +1,38 @@
+# Very Deep Convolutional Networks for Large Scale Image Recognition
+
+- This project work is a implementation of [**Very Deep Convolutional Networks for Large-Scale Image Recognition**](https://arxiv.org/pdf/1409.1556.pdf) in **Pytorch**. 
 
 
-
-# Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition
-
-This project work is a implementation of [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf) in Pytorch. 
-However, the dataset used for this project is from [Tiny ImageNet Visual Recognition Challenge](https://tiny-imagenet.herokuapp.com/). The model performance can be 
-improved by using smaller convolutional filter (i.e feature extraction maps) with 3x3 size while increasing network layer depth. In this model, an adaptive maxpooling 
-layer was used between the final ConvNet layer and fully connected layer. Furthermore, this model  doesn't use any out dropout layers.
- 
-
-### Model Architecture
+## Model Architecture
 The models were implemented as per original paper description, which can be seen in the following figure. 
 
-
-<img src="figures/ConNet_config.png" width="600" height="600">
+<p align="center">
+<img src="figures/ConNet_config.png" width="600" height="600"><br>
 <!--![Model Architecture](figures/ConNet_config.png)-->
+</p>
 
-### Dataset
 
-The dataset is devided in to 3 sets:
+## Dataset
+- The dataset used for this project is from [**Tiny ImageNet Visual Recognition Challenge**](https://www.kaggle.com/c/tiny-imagenet). 
 
-- Trainset is composed with 200 clasess and each class has 200 samples with a 64x64 pixels
-- Validationset has composed with a 50 samples per each class. 
-- Testset is a total size 10000 samples.
+- The dataset is devided in to 3 sets:
 
-<b>Sample images from trainset:</b>
+ - Trainset is composed with 200 clasess and each class has 200 samples with a 64x64 pixels
+ - Validationset has composed with a 50 samples per each class. 
+ - Testset is a total size 10000 samples.
+
+- <b>Sample images from Train Set:</b>
 
 ![trainsample](figures/train_sample.png)
 
-<b>Sample images from validationset:</b>
+- <b>Sample images from Validation Set:</b>
 
 ![valsample](figures/val_sample.png)
+ 
 
+## Results
 
-### Computing resources 
-The models were trained on GPU, which is having a configuration of Nvidia-GTX 1070 8gb. Each model has took approx. 14h to 20h for training.  
-
-### Results
-
-
-
-<b>Model performance plots:</b>
+- ### <b>Model performance plots:</b>
 
 <!--![11 layer model](figures/trainVal_loss_11.png =250x)   ![13 layer model](figures/trainVal_loss_13.png =250x)-->
 
