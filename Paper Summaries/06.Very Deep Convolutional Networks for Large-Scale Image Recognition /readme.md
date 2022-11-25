@@ -1,7 +1,7 @@
 # Very Deep Convolutional Networks for Large-Scale Image Recognition
 - <ins>Author, Venue & Year</ins>: **Karen Simonyan, Andrew Zisserman,ICLR ,2015**
 
-### [Original Paper](https://arxiv.org/abs/1409.1556) || [Paper Report]()
+### [Original Paper](https://arxiv.org/abs/1409.1556) || [Paper Report](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/06.Very%20Deep%20Convolutional%20Networks%20for%20Large-Scale%20Image%20Recognition%20/Very%20Deep%20Convolutional%20Networks%20for%20Large-Scale%20Image%20Recognition(VGG).pdf)
 
 ## Summary
 
