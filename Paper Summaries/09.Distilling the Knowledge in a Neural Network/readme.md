@@ -1,5 +1,5 @@
 # Distilling the Knowledge in a Neural Network
-- <ins>Author, Venue & Year</ins>: **Geoffrey Hinton, Oriol Vinyals, Jeff Dean, NeurIPS, 2014  **
+- <ins>Author, Venue & Year</ins>: **Geoffrey Hinton, Oriol Vinyals, Jeff Dean, NeurIPS, 2014**
 ### [Original Paper](https://arxiv.org/abs/1503.02531) || Paper Report()
 
 ## Summary
