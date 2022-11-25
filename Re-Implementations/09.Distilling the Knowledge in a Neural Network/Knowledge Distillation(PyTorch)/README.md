@@ -1,9 +1,7 @@
+# Distilling the Knowledge in a Neural Network
 
-Distilling the Knowledge in a Neural Network
-==
-* Unofficial Pytorch Implementation of "Distilling the Knowledge in a Neural Network" with **CIFAR10 Dataset**
-* Reference: [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) **NIPS Workshop 2014**
-* **Author**: `Minseong Kim`(tyui592@gmail.com)
+* This is aPytorch Implementation of [**Distilling the Knowledge in a Neural Network**](https://arxiv.org/abs/1503.02531) 
+* The dataset used is the **CIFAR10 Dataset**
 
 Requirements
 --
@@ -57,7 +55,3 @@ Train the Small Network with the trained Large Network
 | 20 | 73.91 % |
 | 30 | 75.64 % |
 
-Reference
---
-* https://github.com/peterliht/knowledge-distillation-pytorch
-* https://github.com/bearpaw/pytorch-classification
