@@ -165,15 +165,3 @@ $ Epochs - 1000
 
 ### After finishing training, the model will save the best checkpoint in ```checkpoints``` directory.
 
-
-
-
-### Special Thanks to @titu1994 for initial implementation
-
-```https://github.com/titu1994/Inception-v4```
-
-
-### Contributors
-
-- Luka Chkhetiani - @deepconsc - Lchkhetiani@systemcorp.ai
-- Levan Bezhanidze - @bejanidze - Lbezhanidze@systemcorp.ai
