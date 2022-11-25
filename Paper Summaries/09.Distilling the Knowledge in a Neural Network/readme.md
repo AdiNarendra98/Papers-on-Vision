@@ -1,6 +1,6 @@
 # Distilling the Knowledge in a Neural Network
 - <ins>Author, Venue & Year</ins>: **Geoffrey Hinton, Oriol Vinyals, Jeff Dean, NeurIPS, 2014**
-### [Original Paper](https://arxiv.org/abs/1503.02531) || Paper Report(https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/09.Distilling%20the%20Knowledge%20in%20a%20Neural%20Network/Distilling%20the%20knowledge%20in%20a%20neural%20network.pdf)
+### [Original Paper](https://arxiv.org/abs/1503.02531) || [Paper Report](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/09.Distilling%20the%20Knowledge%20in%20a%20Neural%20Network/Distilling%20the%20knowledge%20in%20a%20neural%20network.pdf)
 
 ## Summary
 
