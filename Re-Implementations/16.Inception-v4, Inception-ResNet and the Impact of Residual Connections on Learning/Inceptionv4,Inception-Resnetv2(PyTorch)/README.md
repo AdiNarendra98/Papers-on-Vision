@@ -15,7 +15,7 @@ All the results reported here are based on **this repo**, and 50000 ImageNet **v
 - [X] inference time (average)
 - [X] bottom10 accuracy
 - [X] Hyper parameters
-- [ ] blacklists
+
 
 + Top-1 and top-5 accuracy **with** blacklisted entities
 
