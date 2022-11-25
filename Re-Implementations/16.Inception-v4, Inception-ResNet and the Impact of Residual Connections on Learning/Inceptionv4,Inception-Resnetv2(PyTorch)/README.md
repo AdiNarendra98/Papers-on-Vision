@@ -87,7 +87,7 @@ All the results reported here are based on **this repo**, and 50000 ImageNet **v
 
     ![](./model/inception_resnet_v2_stem.png)
     
- + Overall schema
+ + Overall Structure
  
     ![](./model/inception_resnet_v2.png)    
     
