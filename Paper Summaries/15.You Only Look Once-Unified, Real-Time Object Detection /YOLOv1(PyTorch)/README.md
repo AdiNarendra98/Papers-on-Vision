@@ -1,11 +1,15 @@
-### YOLO v1 using PyTorch
+### You Only Look Once: Unified, Real-Time Object Detection
+
+- This is a implementation of [**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640) using **PyTorch**
+
+## Sample Results
 
 <div align="center">
-<img src="/results/res_1.jpg" height="280px"/>
-<img src="/results/res_2.jpg" height="280px"/>
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/15.You%20Only%20Look%20Once-Unified%2C%20Real-Time%20Object%20Detection%20/YOLOv1(PyTorch)/results/res_1.jpg" height="280px"/>
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/15.You%20Only%20Look%20Once-Unified%2C%20Real-Time%20Object%20Detection%20/YOLOv1(PyTorch)/results/res_2.jpg" height="280px"/>
 </div>
 
-**Dataset:**
+## Dataset
 1. Download `voc2012train` [dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
 2. Download `voc2007train` [dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)
 3. Download `voc2007test` [dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar)
