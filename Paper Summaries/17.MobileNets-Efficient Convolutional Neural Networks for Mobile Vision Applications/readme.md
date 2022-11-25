@@ -1,5 +1,5 @@
 #  MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
-- <ins>Author, Venue & Year</ins>: **Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, Hartwig Adam,**
+- <ins>Author, Venue & Year</ins>: **Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, Hartwig Adam,Arxiv, 2017**
 
 ### [Original Paper](https://arxiv.org/pdf/1704.04861v1.pdf) || [**Paper Report**](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/17.MobileNets-Efficient%20Convolutional%20Neural%20Networks%20for%20Mobile%20Vision%20Applications/MobileNets-Efficient%20Convolutional%20Neural%20Networks%20for%20Mobile%20Vision%20Applications.pdf)
 
