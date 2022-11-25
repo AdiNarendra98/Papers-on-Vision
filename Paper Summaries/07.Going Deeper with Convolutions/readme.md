@@ -1,5 +1,5 @@
 # Going Deeper with Convolutions
-- <ins>Author, Venue & Year</ins>: Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich, CVPR, 2014
+- <ins>Author, Venue & Year</ins>: **Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich, CVPR, 2014**
 
 ### [Original Paper](https://arxiv.org/abs/1409.4842) || [**Paper Report**](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/07.Going%20Deeper%20with%20Convolutions/Going%20deeper%20with%20convolutions.pdf)
 
