@@ -1,12 +1,13 @@
 # 3D - Convolutional Neural Network For Action Recognition 
- Inplementation of 3D Convolutional Neural Network for video classification using [Keras](https://keras.io/)(with [tensorflow](https://www.tensorflow.org/) as backend).
+- This is the implementation of 3D Convolutional Neural Networks from the [**3D Convolutional Neural Networks for Human Action Recognition**](https://www.dbs.ifi.lmu.de/~yu_k/icml2010_3dcnn.pdf) for video classification \
+- This work uses [**Keras**](https://keras.io/)(with [**tensorflow**](https://www.tensorflow.org/) as backend).
 
 ## Description
-This code requires [UCF-101 dataset](http://crcv.ucf.edu/data/UCF101.php).
-This code generates graphs of accuracy and loss, plot of model, result and class names as txt file and model as hd5 and json.
+- This code requires [**UCF-101 dataset**](http://crcv.ucf.edu/data/UCF101.php).
+- This code **generates graphs of accuracy and loss, plot of model, result and class names** as txt file and model as hd5 and json.
 
-You can use visualize\_input.py to make an input image which will maximize the specific output.
-This code is able to maximize a layer's output of any classification model.
+- You can use visualize\_input.py to make an input image which will maximize the specific output.
+- This code is able to maximize a layer's output of any classification model.
 (Only dense layer convolutional layer(2D/3D) and pooling layer(2D/3D) are allowed.)
 
 ## Requirements
