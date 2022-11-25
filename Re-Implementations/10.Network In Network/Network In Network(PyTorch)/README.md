@@ -1,7 +1,7 @@
-# pytorch-nin-cifar10
-- This is a PyTorch implementation of [**Network In Network](https://arxiv.org/abs/1312.4400)  
-- The dataset used is [Cifar10](https://www.cs.toronto.edu/~kriz/cifar.html). 
-- All settings are base on the [network-in-network](https://gist.github.com/mavenlin/e56253735ef32c3c296d) model in Caffe model zoo.
+# Network in Network
+- This is a PyTorch implementation of [**Network In Network**](https://arxiv.org/abs/1312.4400)  
+- The dataset used is [**Cifar10**](https://www.cs.toronto.edu/~kriz/cifar.html). 
+- All settings are base on the [**network-in-network**](https://gist.github.com/mavenlin/e56253735ef32c3c296d) model in **Caffe model zoo**.
 
 ## Instructions
 ```bash
