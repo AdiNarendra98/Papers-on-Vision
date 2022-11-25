@@ -1,9 +1,6 @@
 # Vision-Transformer
 
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ra1ph2/Vision-Transformer/blob/main/VisionTransformer.ipynb) 
-
-Implementation of the ViT model in Pytorch from the paper ['An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'](https://openreview.net/forum?id=YicbFdNTTy) by Google Research.
+- This is the implementation of the ViT model in **Pytorch**from the paper [**An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale**](https://openreview.net/forum?id=YicbFdNTTy) by Google Research.
 
 
 ## Model Architecture
@@ -115,22 +112,3 @@ Due to non-availability of powerful compute on Google Colab, we chose to train a
 - Evaluating the model on VTAB classification suite.
 - Different Attention mechanisms could be explored that take the 2D structure of images into account.
 
-
-## Presentation
-
-Presentation can be accessed [here](docs/Presentation.pptx).
-
-
-## Group Members
-
-| Name                | ID            |
-| ------------------- | ------------- |
-| Akshit Khanna       | 2017A7PS0023P |
-| Vishal Mittal       | 2017A7PS0080P |
-| Raghav Bansal       | 2017A3PS0196P |
-
-
-## References
-
-- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](docs/an_image_is_worth_16x16_words_transformers_for_image_recognition_at_scale.pdf) (Paper)
-- Eunkwang Jeon, ViT-pytorch (2020), [GitHub repository](https://github.com/jeonsworld/ViT-pytorch)
