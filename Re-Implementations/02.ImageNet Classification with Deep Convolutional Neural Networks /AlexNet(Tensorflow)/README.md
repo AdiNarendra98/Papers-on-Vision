@@ -1,13 +1,21 @@
-In the name of God
+# AlexNet- Image Classification with Deep Convolution Neural Networks
 
-# AlexNet
-This repository contains implementation of [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-(ImageNet Classification with Deep Convolutional Neural Networks) by Tensorflow and the network tested with the
-[CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
-
+- This repository contains implementation of [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+(ImageNet Classification with Deep Convolutional Neural Networks) using **Tensorflow** 
+- The network tested with the
+[**CIFAR-10 dataset**](https://www.cs.toronto.edu/~kriz/cifar.html).
+<p align='center'>
 ![AlexNet Architecture](alexnet.png)
+</p>
 
-# Download the CIFAR-10 dataset
+##  Dependencies
+* Python 3
+* numpy
+* scipy
+* pillow
+* tensorflow
+
+## Dataset: CIFAR-10 dataset
 Before train and evaluate the network, you should download the following dataset:
 
 * CIFAR-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
@@ -16,7 +24,7 @@ Extract the `cifar-10-python.tar.gz` file, then your folder structure should be 
 
 ![Folder Structure](folder_structure.png)
 
-# Training CIFAR-10 dataset
+## Training CIFAR-10 dataset
 To train the network with cifar-10 dataset, type the following command at the command prompt:
 ```
 python3 ./train.py
@@ -67,14 +75,4 @@ To evaluate the network with cifar-10 dataset, type the following command at the
 ```
 python3 ./evaluate.py
 ```
-# Dependencies
-* Python 3
-* numpy
-* scipy
-* pillow
-* tensorflow
 
-# Links
-* https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
-* https://www.cs.toronto.edu/~kriz/cifar.html
-* https://github.com/amir-saniyan/AlexNet
