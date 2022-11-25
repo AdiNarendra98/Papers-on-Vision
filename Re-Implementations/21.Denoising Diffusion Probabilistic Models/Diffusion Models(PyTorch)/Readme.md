@@ -1,19 +1,11 @@
 # Denoising Diffusion Probabilistic Models
 
-Unofficial PyTorch implementation of Denoising Diffusion Probabilistic Models [1].
+- This is a **PyTorch** implementation of [**Denoising Diffusion Probabilistic Models**](https://arxiv.org/abs/2006.11239)
 
-This implementation follows the most of details in official TensorFlow
-implementation [2]. I use PyTorch coding style to port [2] to PyTorch and hope
-that anyone who is familiar with PyTorch can easily understand every
-implementation details.
-
-## TODO
+## Overview
 - Datasets
     - [x] Support CIFAR10
-    - [ ] Support LSUN
-    - [ ] Support CelebA-HQ
-- Featurex
-    - [ ] Gradient accumulation
+- Feature
     - [x] Multi-GPU training
 - Reproducing Experiment
     - [x] CIFAR10
@@ -83,13 +75,10 @@ implementation details.
 ## Reproducing Experiment
 
 ### CIFAR10
-- FID: 3.249, Inception Score: 9.475(0.174)
+- **FID: 3.249, Inception Score: 9.475(0.174)**
+
 ![](./images/cifar10_samples.png)
 
-The checkpoint can be downloaded from my [drive](https://drive.google.com/file/d/1IhdFcdNZJRosi3XRT7-qNmiPGTuyuEXr/view?usp=sharing).
+- The checkpoint can be downloaded from here 👉🏻 : [Google Drive Link](https://drive.google.com/file/d/1IhdFcdNZJRosi3XRT7-qNmiPGTuyuEXr/view?usp=sharing).
 
-## Reference
 
-[1] [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
-
-[2] [Official TensorFlow implementation](https://github.com/hojonathanho/diffusion)
