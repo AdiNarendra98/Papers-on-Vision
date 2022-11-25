@@ -51,5 +51,7 @@
   - **19.An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale** : [**Paper**](https://arxiv.org/abs/2010.11929) || [**Code**](https://github.com/AdiNarendra98/Papers-on-Vision/tree/main/Re-Implementations/19.An%20Image%20is%20Worth%2016(x)16%20Words-Transformers%20for%20Image%20Recognition%20at%20Scale) || [**Summary**](https://github.com/AdiNarendra98/Papers-on-Vision/tree/main/Paper%20Summaries/19.An%20Image%20is%20Worth%2016.16%20Words-Transformers%20for%20Image%20Recognition%20at%20Scale)
  
  
- 
+## Inspirations
+
+- The primary forces behind this repo were the works of [**Abhisek Das**](https://abhishekdas.com) & [**Aman Chadha**](https://amanchadha.com)
     
