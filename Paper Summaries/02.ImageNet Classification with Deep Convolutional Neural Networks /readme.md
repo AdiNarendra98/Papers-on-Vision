@@ -1,6 +1,6 @@
 # AlexNet-ImageNet Classification with Deep Convolutional Neural Networks
 - <ins>Authors,Venue & Year</ins>: **Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton, NIPS, 2012**
-### [Original Paper](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+### [Original Paper](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) || [Paper Report](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/02.ImageNet%20Classification%20with%20Deep%20Convolutional%20Neural%20Networks%20/ImageNet%20Classification%20with%20Deep%20Convolutional%20Neural%20Networks.pdf)
 ## Summary
 
 ### Overview
