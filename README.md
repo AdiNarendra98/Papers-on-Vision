@@ -8,6 +8,7 @@
     - **Code Reimplementation**: Using PyTorch/Tensorflow(in most papers both)
     - **Paper Summary with Report(in most of them)**
     
+- This repo will be updated once every month.
  
 ## Papers List
 
