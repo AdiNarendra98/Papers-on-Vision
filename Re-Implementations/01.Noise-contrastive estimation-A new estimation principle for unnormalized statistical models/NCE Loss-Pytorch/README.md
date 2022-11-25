@@ -2,7 +2,7 @@
 
 ### Introduction
 
-- This is an implementation of[**Noise Contrastive Estimation (NCE) paper**]( http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf ) in **PyTorch on a 2D dataset**. 
+- This is an implementation of [**Noise Contrastive Estimation (NCE) paper**]( http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf ) in **PyTorch on a 2D dataset**. 
 
 ## Overview
 - NCE is a method to estimate energy based models (EBM)
