@@ -6,7 +6,7 @@ in **Tensorflow**.
 
 ## Dataset
 
-- Link: `ILSVRC2010 <http://www.image-net.org/challenges/LSVRC/2010/download-all-nonpub>`_
+- Link: [**ILSVRC2010**](http://www.image-net.org/challenges/LSVRC/2010/download-all-nonpub)
 - Training size: *1261406 images*
 - Validation size: *50000 images*
 - Test size: *150000 images*
