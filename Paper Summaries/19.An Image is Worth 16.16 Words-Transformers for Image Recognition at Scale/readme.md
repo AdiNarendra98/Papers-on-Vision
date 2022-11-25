@@ -15,3 +15,6 @@
 - They introduce three ViT configurations (Base, Large, and Huge) in the form of two models: ViT-H/14 and ViT-L/16 (where the notation used is ViT-C/N, C is used to indicate the model size and N is the input patch size; for instance, ViT-L/16 means the “Large” variant with 16×16 input patch size).
 
 - When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), the proposed Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.
+
+### Notes:
+- Found this [Presentation](https://tugot17.github.io/Vision-Transformer-Presentation/#/2) to be helpful in understanding the paper.
