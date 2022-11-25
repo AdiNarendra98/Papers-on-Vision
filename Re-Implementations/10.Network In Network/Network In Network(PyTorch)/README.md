@@ -1,9 +1,11 @@
 # pytorch-nin-cifar10
-pytorch implementation of network-in-network model on cifar10. All settings are base on the [network-in-network](https://gist.github.com/mavenlin/e56253735ef32c3c296d) model in Caffe model zoo.
+- This is a PyTorch implementation of [**Network In Network](https://arxiv.org/abs/1312.4400)  
+- The dataset used is [Cifar10](https://www.cs.toronto.edu/~kriz/cifar.html). 
+- All settings are base on the [network-in-network](https://gist.github.com/mavenlin/e56253735ef32c3c296d) model in Caffe model zoo.
 
 ## Instructions
 ```bash
-$ git clone https://github.com/jiecaoyu/pytorch-nin-cifar10.git
+$ git clone https://github.com/AdiNarendra/Papers-on-Vision/Re-Implementations
 $ cd pytorch-nin-cifar10
 $ mkdir data
 ```
@@ -13,7 +15,5 @@ $ python original.py
 ```
 
 ## Accuracy
-By tweaking hyper-parameters, the model can reach the accuracy of 89.64%, which is better than other available Torch/PyTorch implementations.
+By tweaking hyper-parameters, the model can reach the **accuracy of 89.64%**, which is better than other available Torch/PyTorch implementations.
 
-## License
-The data used to train this model comes from http://www.cs.toronto.edu/~kriz/cifar.html Please follow the license there if used.
