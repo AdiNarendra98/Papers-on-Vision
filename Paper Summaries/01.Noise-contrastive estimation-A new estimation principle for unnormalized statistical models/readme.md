@@ -1,6 +1,6 @@
 # Summary of the Paper:
 
-### [Original Paper](https://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) || [Annotated Paper]()
+### [Original Paper](https://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) || [Annotated Paper](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/01.Noise-contrastive%20estimation-A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models/Annotated%20Paper%201.pdf)
 
 * This paper by Gutmann and Hyvarinen in AISTATS 2010 introduced the **concept of negative sampling that forms the basis of contrastive learning**.
 
