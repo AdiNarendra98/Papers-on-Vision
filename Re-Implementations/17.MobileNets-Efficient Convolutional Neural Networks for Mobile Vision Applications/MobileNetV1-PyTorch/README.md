@@ -1,10 +1,7 @@
 # MobileNetV1-PyTorch
 
-## Overview
-
-This repository contains an op-for-op PyTorch reimplementation
-of [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861v1.pdf)
-.
+- This repository contains an **PyTorch** reimplementation
+of [**MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications**](https://arxiv.org/pdf/1704.04861v1.pdf).
 
 ## Table of contents
 
@@ -109,40 +106,4 @@ barracouta, snoek                                                           (1.4
 armadillo                                                                   (0.80%)
 dugong, Dugong dugon                                                        (0.11%)
 rock beauty, Holocanthus tricolor                                           (0.11%)
-```
-
-## Contributing
-
-If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions,
-simply post them as GitHub issues.
-
-I look forward to seeing what the community does with these models!
-
-### Credit
-
-#### MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
-
-*Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, Hartwig
-Adam*
-
-##### Abstract
-
-We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are
-based on a streamlined architecture that uses depth-wise separable convolutions to build light weight deep neural
-networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These
-hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints
-of the problem. We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared
-to other popular models on ImageNet classification. We then demonstrate the effectiveness of MobileNets across a wide
-range of applications and use cases including object detection, finegrain classification, face attributes and large
-scale geo-localization.
-
-[[Paper]](https://arxiv.org/pdf/1704.04861v1.pdf)
-
-```bibtex
-@article{howard2017mobilenets,
-  title={Mobilenets: Efficient convolutional neural networks for mobile vision applications},
-  author={Howard, Andrew G and Zhu, Menglong and Chen, Bo and Kalenichenko, Dmitry and Wang, Weijun and Weyand, Tobias and Andreetto, Marco and Adam, Hartwig},
-  journal={arXiv preprint arXiv:1704.04861},
-  year={2017}
-}
 ```
