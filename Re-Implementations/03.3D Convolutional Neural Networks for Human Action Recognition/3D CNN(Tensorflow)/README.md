@@ -1,6 +1,11 @@
 # 3D - Convolutional Neural Network For Action Recognition 
-- This is the implementation of 3D Convolutional Neural Networks from the [**3D Convolutional Neural Networks for Human Action Recognition**](https://www.dbs.ifi.lmu.de/~yu_k/icml2010_3dcnn.pdf) for video classification \
+- This is the implementation of 3D Convolutional Neural Networks from the [**3D Convolutional Neural Networks for Human Action Recognition**](https://www.dbs.ifi.lmu.de/~yu_k/icml2010_3dcnn.pdf) for video classification 
 - This work uses [**Keras**](https://keras.io/)(with [**tensorflow**](https://www.tensorflow.org/) as backend).
+
+<p align="center">
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Re-Implementations/03.3D%20Convolutional%20Neural%20Networks%20for%20Human%20Action%20Recognition/3D%20CNN(Tensorflow)/Model%20Pic.webp " width="650" height="350"><br>
+<b>Architecture from the Paper</b><br>
+</p>
 
 ## Description
 - This code requires [**UCF-101 dataset**](http://crcv.ucf.edu/data/UCF101.php).
