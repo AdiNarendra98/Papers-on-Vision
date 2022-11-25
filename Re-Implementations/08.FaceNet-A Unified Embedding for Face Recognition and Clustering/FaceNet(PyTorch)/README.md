@@ -1,10 +1,7 @@
-# Facenet for face verification using pytorch
-- Pytorch implementation of the paper: "FaceNet: A Unified Embedding for Face Recognition and Clustering".
-- Training of network is done using triplet loss.
-- This work is modified in some functionality from the original work by [Taebong Moon](https://github.com/tbmoon/facenet) and then retrained for the purpose of completing my BS degree. The full report can be found at this folder: [full-and-paper-report](https://github.com/khrlimam/skripsi/raw/master/pdfs)
-- To use the pretrained model please refer to this repo: https://github.com/khrlimam/res-facenet
-- If you wish to try the demo app please clone this repo and follow the installation instruction: https://github.com/khrlimam/demo-facenet
-
+# FaceNet: A Unified Embedding for Face Recognition and Clustering
+- This is a **Pytorch** implementation of the paper [**FaceNet: A Unified Embedding for Face Recognition and Clustering**](https://arxiv.org/abs/1503.03832)
+- Training of network is done using **triplet loss**.
+- This work is modified in some functionality from the original work by [Taebong Moon](https://github.com/tbmoon/facenet) and then retrained for the purpose of completing this work. 
 
 # How to train/validate model
 - Download vggface2 (for training) and lfw (for validation) datasets.
@@ -44,9 +41,3 @@
 - Test the model on 30 pair of images with threshold 1.5
 ![Test Result on 30 pair of images](./log/tmp/test-result.png)
 
-
-# References
-- https://github.com/liorshk/facenet_pytorch 
-- https://github.com/davidsandberg/facenet
-- https://arxiv.org/abs/1503.03832
-- https://arxiv.org/abs/1703.07737
