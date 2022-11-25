@@ -1,21 +1,7 @@
-# YOLOv1 with Tensorflow 2
+# You Only Look Once: Unified, Real-Time Object Detection
 
-![tf-v2.5.0](https://img.shields.io/badge/TensorFlow-v2.5.0-orange)
-
-For ease of implementation, i have not implemented exactly the same as paper.  
-The things presented below are implemented differently from the paper.
-
-- Backbone network. (Used **Xception** instead of network mentioned in the paper.)
-
-- Learning rate schedule (Used `tf.keras.optimizers.schedules.ExponentialDecay`)
-
-- Data augmentations
-
-- Hyper parameters
-
-- And so on . . .
-
-<br><br>
+- This is a implementation of [**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640) using **Tensorflow2**
+ 
 
 ## Preview
 
@@ -190,17 +176,12 @@ $ python eval_voc.py
 
 <br><br>
 
-## Citation
+### Differences from the paper
 
-**You Only Look Once: Unified, Real-Time Object Detection** \<[arxiv link](https://arxiv.org/abs/1506.02640)\>
+- Backbone network. (Used **Xception** instead of network mentioned in the paper.)
 
-```
-@misc{redmon2016look,
-      title={You Only Look Once: Unified, Real-Time Object Detection}, 
-      author={Joseph Redmon and Santosh Divvala and Ross Girshick and Ali Farhadi},
-      year={2016},
-      eprint={1506.02640},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
+- Learning rate schedule (Used `tf.keras.optimizers.schedules.ExponentialDecay`)
+
+- Data augmentations
+
+- Hyper parameters
