@@ -1,14 +1,12 @@
-# alexnet
-My replication code for the [AlexNet paper](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html). 
-
-tldr: go to [Results](#results)
+# AlexNet- Image Classification with Deep Convolution Neural Networks
+- My code reimplementation for the legendary [**AlexNet Paper**](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) in **Pytorch**
 
 ## Data
-The data used is ImageNet 2012. I downloaded it from kaggle.  The paper also
-experiments with ImageNet 2010 but I couldn't find this dataset.  The authors
-also experiment with pretraining on ImageNet Fall 2011 which isn't even
-available anymore. The closest would be current ImageNet21K, but I don't have
-enough compute for that.
+- The data used is ImageNet 2012. I downloaded it from kaggle.  
+- The paper also experiments with ImageNet 2010 but I couldn't find this dataset.  
+- The authors also experiment with pretraining on ImageNet Fall 2011 which isn't even
+available anymore. 
+- The closest would be current ImageNet21K, but I don't have enough compute for that.
 
 Download and extract ImangeNet
 ```console
@@ -106,21 +104,7 @@ Results aren't that close, but also not that far off. As we can see in the train
 - [ ] optim SGD, see exact update rule in paper section 5 (not used see, notes below)
 - [x] batch size 128
 - [x] dropout of 0.5
-- [ ] momentum 0.9 (see notes about optimization below)
-- [ ] weight decay 0.0005 (see notes about optimzation below)
 - [x] weight init is guassian with mean 0, std 0.01. Bias in 2, 4, 5 conv layers and also fc layers with constant 1, bias in other layers init with 0
-- [ ] same lr for al layers, start at 0.01 (close, but see notes)
 - [x] decay learn rate by factor of 10 when val error stops improving. This results in 3 reductions during training.
 - [x] 90 epochs, which took 5/6 days.
 
-## Notes
-
-* Optimizer changed, [other
-  user](https://github.com/dansuh17/alexnet-pytorch/blob/8aeaedd79a462b79d5d483d6774e344ca1738570/model.py#L142)
-  also saw poor performance using `optim.SGD`. I even implemented the actual
-  optimizer step described in the paper, since it's a little bit different than
-  pytorch's algortihm, but I saw no improvement. I kept Adam optim and used a
-  learn rate of 1e-4, and also lowered it on plateau.
-* Apparently the net convergence is super sensitive to param initialization.
-  Out of three seed values I tried only one made the net learn in the imagenet experiment (using the
-  exact same hparams elsewhere). The current default seed is the one I found.
