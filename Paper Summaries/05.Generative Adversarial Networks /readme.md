@@ -33,3 +33,5 @@
 - *D* must be well synchronised with *G*.
 - While *G* may learn to sample data points that are indistinguishable from true data, no explicit representation can be obtained.
 
+## Resources
+- #### Found this presentation on GANs to be helpful,Check it out here 👉🏻: [**GANS Presentation**](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/05.Generative%20Adversarial%20Networks%20/GANs%20Presentation.pdf)
