@@ -1,6 +1,6 @@
 #  Rethinking the Inception Architecture for Computer Vision
 - <ins>Author, Venue & Year</ins>: **Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, Zbigniew Wojna,CVPR,2016**
-### [Original Paper](https://arxiv.org/abs/1512.00567) || [**Paper Report**]()
+### [Original Paper](https://arxiv.org/abs/1512.00567) || [**Paper Report**](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/12.Rethinking%20the%20Inception%20Architecture%20for%20Computer%20Vision/Rethinking%20the%20Inception%20Architecture%20for%20Computer%20Vision.pdf)
 
 ## Summary
 * This paper by Szegedy et al. from Google in CVPR 2016 proposed InceptionV2, V3 by improving the Inception model based on the following principles:
