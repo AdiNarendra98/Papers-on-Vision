@@ -16,8 +16,11 @@
 (Only dense layer convolutional layer(2D/3D) and pooling layer(2D/3D) are allowed.)
 
 ## Requirements
-python3  
-opencv3 (with ffmpeg), keras, numpy, tqdm  
+- python3  
+- opencv3 (with ffmpeg)
+- keras
+- numpy
+- tqdm  
 
 ## Options
 Options of 3dcnn.py are as following:  
