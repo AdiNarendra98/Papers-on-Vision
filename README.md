@@ -46,6 +46,9 @@
 - ### 2019
   - **20.EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks** : [**Paper**](https://arxiv.org/pdf/1905.11946v5.pdf) || [**Code**](https://github.com/AdiNarendra98/Papers-on-Vision/tree/main/Re-Implementations/20.EfficientNet-Rethinking%20Model%20Scaling%20for%20Convolutional%20Neural%20Network) || [**Summary**](https://github.com/AdiNarendra98/Papers-on-Vision/tree/main/Paper%20Summaries/20.EfficientNet-Rethinking%20Model%20Scaling%20for%20Convolutional%20Neural%20Network)
   
+- ### 2020
+ - **21.Denoising Diffusion Probabilistic Models** : [**Paper**](https://arxiv.org/abs/2006.11239) || [**Code**](https://github.com/AdiNarendra98/Papers-on-Vision/tree/main/Re-Implementations/21.Denoising%20Diffusion%20Probabilistic%20Models) || [**Summary**](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/21.Denoising%20Diffusion%20Probabilistic%20Models/readme.md)
+  
 - ### 2021
   - **19.An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale** : [**Paper**](https://arxiv.org/abs/2010.11929) || [**Code**](https://github.com/AdiNarendra98/Papers-on-Vision/tree/main/Re-Implementations/19.An%20Image%20is%20Worth%2016(x)16%20Words-Transformers%20for%20Image%20Recognition%20at%20Scale) || [**Summary**](https://github.com/AdiNarendra98/Papers-on-Vision/tree/main/Paper%20Summaries/19.An%20Image%20is%20Worth%2016.16%20Words-Transformers%20for%20Image%20Recognition%20at%20Scale)
  
