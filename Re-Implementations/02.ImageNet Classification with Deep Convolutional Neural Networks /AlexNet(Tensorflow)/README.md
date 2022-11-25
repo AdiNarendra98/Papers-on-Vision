@@ -4,9 +4,10 @@
 (ImageNet Classification with Deep Convolutional Neural Networks) using **Tensorflow** 
 - The network tested with the
 [**CIFAR-10 dataset**](https://www.cs.toronto.edu/~kriz/cifar.html).
-<p align='center'>
-![AlexNet Architecture](alexnet.png)
+<p align="center">
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Re-Implementations/02.ImageNet%20Classification%20with%20Deep%20Convolutional%20Neural%20Networks%20/AlexNet(Tensorflow)/alexnet.png"><br>
 </p>
+
 
 ##  Dependencies
 * Python 3
