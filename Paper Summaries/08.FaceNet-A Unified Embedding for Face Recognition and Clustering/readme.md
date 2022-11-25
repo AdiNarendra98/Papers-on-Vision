@@ -1,50 +1,24 @@
-# Going Deeper with Convolutions
-- <ins>Author, Venue & Year</ins>: Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich, CVPR, 2014
+# FaceNet: A unified embedding for face recognition and clustering
+- <ins>Author, Venue & Year</ins>: **Florian Schroff, Dmitry Kalenichenko, James Philbin, 2015**
 
-### [Original Paper](https://arxiv.org/abs/1409.4842) || [**Paper Report**](https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/07.Going%20Deeper%20with%20Convolutions/Going%20deeper%20with%20convolutions.pdf)
+### [Original Paper](https://arxiv.org/abs/1503.03832) 
 
 ## Summary
 
-- This paper introduces a neural network architecture
-that is deeper and wider, yet optimizing for computational
-efficiency by approximating the expected sparse structure
-(following from Arora et al's work) using readily available
-dense blocks. An ensemble of 7 models (all with the same
-architecture but different image sampling) achieved top spot
-in the classification task at ILSVRC2014.
+* This paper by Schroff et al. from Google in 2015 proposes FaceNet, a system that directly learns a mapping from face images to a compact Euclidean space where distances directly correspond to a measure of face similarity. Once this space has been produced, tasks such as face recognition, verification and clustering can be easily implemented using standard techniques with FaceNet embeddings as feature vectors.
 
-- "Their main result states that if the probability distribution of the data-set is representable by a large, very sparse deep neural network, then the optimal network topology can be constructed layer by layer by analyzing the correlation statistics of the activations of the last layer and clustering neurons with highly correlated outputs."
+* Their method uses a deep convolutional network trained to directly optimize the embedding itself, rather than an intermediate bottleneck layer as in previous deep learning approaches. To train, they use triplets of roughly aligned matching / non-matching face patches generated using a novel online triplet mining method. 
 
-## Main contributions:
+* The benefit of our approach is much greater representational efficiency: they achieve state-of-the-art face recognition performance using only 128-bytes per face.
 
-- A more generalized exploration of the NIN architecture,
-called the Inception module.
-    - 1x1 convolutions to capture dense information clusters
-    - 3x3 and 5x5 to capture more spatially spread out
-    clusters
-    - Ratio of 3x3 and 5x5 to 1x1 convolutions increases as we go deeper
-    as features of higher abstraction are less spatially
-    concentrated.
-- To avoid the blow-up of output channels cause by merging outputs
-of convolutional layers and pooling layer, they use 1x1 convolutions
-for dimensionality reduction. This has the added benefit of another
-layer of non-linearity (and thus increasing discriminative capability).
-- Multiple intermediate layers are tied to the objective function. Since
-features produced by intermediate layers of a deep network are
-supposed to be very discriminative, and to strengthen the gradient signal
-passing through them during back-propagation, they attach auxiliary classifiers
-to intermediate layers.
-    - During training, they do a weighted sum of this loss with the total loss
-    of the network.
-    - At test time, these auxiliary networks are discarded.
-    - Architecture: average pooling, 1x1 convolution (for dimensionality reduction),
-    dropout, linear layer with softmax.
-    
-## Strengths
+* Previous face recognition approaches based on deep networks use a classification layer trained over a set of known face identities and then take an intermediate bottle neck layer as a representation used to generalize recognition beyond the set of identities used in training. The downsides of this approach are its indirectness and its inefficiency: one has to hope that the bottleneck representation generalizes well to new faces; and by using a bottleneck layer the representation size per face is usually very large (1000s of dimensions). Some recent work has reduced this dimensionality using PCA, but this is a linear transformation that can be easily learnt in one layer of the network. In contrast to these approaches, FaceNet directly trains its output to be a compact 128-D embedding using a triplet-based loss function based on LMNN. Their triplets consist of two matching face thumbnails and a non-matching face thumbnail and the loss aims to separate the positive pair from the negative by a distance margin.
 
-- Achieved state of the art results for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge (ILSVRC) 2014.
+* Choosing which triplets to use turns out to be very important for achieving good performance and, inspired by curriculum learning, they present a novel online negative exemplar mining strategy which ensures consistently increasing difficulty of triplets as the network trains. To improve clustering accuracy, they also explore hard-positive mining techniques which encourage spherical clusters for the embeddings of a single person.
 
-## Weaknesses / Notes
+* The triplet loss minimizes the L2-distance between faces of the same identity and enforces a margin between the distance of faces of different identities and encourages a relative distance constraint. Specifically, the Triplet Loss minimizes the distance between an anchor and a positive, both of which have the same identity, and maximizes the distance between the anchor and a negative of a different identity. Thus, network is trained such that the squared L2 distances in the embedding space directly correspond to face similarity: faces of the same person have small distances and faces of distinct people have large distances. Once this embedding has been produced, downstream tasks become straight-forward: face verification simply involves thresholding the distance between the two embeddings; recognition becomes a k-NN classification problem; and clustering can be achieved using off-the-shelf techniques such as k-means or agglomerative clustering.
 
-- Even though the authors try to explain some of the intuition, most of the design decisions seem arbitrary.
-the design decisions seem arbitrary.
+* On the widely used Labeled Faces in the Wild (LFW) dataset, their system achieves a new record accuracy of 99.63%, which cuts the error rate in comparison to the best published result by 30% on both datasets.
+
+* They explore two different deep convolutional network architectures that have been recently used to great success in the computer vision community. The first architecture is based on the Zeiler&Fergus model which consists of multiple interleaved layers of convolutions, non-linear activations, local response normalizations, and max pooling layers. The second architecture is based on the Inception model of Szegedy et al. which was recently used as the winning approach for ImageNet 2014. These networks use mixed layers that run several different convolutional and pooling layers in parallel and concatenate their responses which reduces the number of parameters by up to 20 times and have the potential to reduce the number of FLOPS required for comparable performance.
+
+* They also introduce the concept of harmonic embeddings, and a harmonic triplet loss, which describe different versions of face embeddings (produced by different networks) that are compatible to each other and allow for direct comparison between each other.
