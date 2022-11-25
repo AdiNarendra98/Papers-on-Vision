@@ -1,19 +1,13 @@
-# What's this
-Implementation of GoogLeNet-v3 [[1]][Paper] by chainer
+# Rethinking the Inception Architecture for Computer Vision
 
+- This is the implementation of [**Rethinking the Inception Architecture for Computer Vision**](https://arxiv.org/abs/1512.00567) using **Tensorflow**.
+- The dataset used for evaluation is [CIFAR-10]()
 
-# Dependencies
-
-    git clone https://github.com/nutszebra/googlenet_v3.git
-    cd googlenet_v3
-    git submodule init
-    git submodule update
-
-# How to run
+## How to run
     python main.py -p ./ -g 0 
 
 
-# Details about my implementation
+# Description
 
 * Data augmentation  
 Train: Pictures are randomly resized in the range of [256, 512], then 224x224 patches are extracted randomly and are normalized locally. Horizontal flipping is applied with 0.5 probability.  
@@ -36,19 +30,13 @@ Initial learning rate is 0.1 acoording to [[1]][Paper], and it is multiplied by 
 According to [[2]][Paper], weight decay is 4.0*10^-5.
 
 
-# Cifar10 result
+## Results
 
-| network              | depth  | total accuracy (%) |
+| **Network**              | **depth**  | **total accuracy (%)** |
 |:---------------------|--------|-------------------:|
-| my implementation    | 49     | 94.74              |
+| **This implementation**   | 49     | **94.74**              |
 
+<p align="center">
 <img src="https://github.com/nutszebra/googlenet_v3/blob/master/loss.jpg" alt="loss" title="loss">
 <img src="https://github.com/nutszebra/googlenet_v3/blob/master/accuracy.jpg" alt="total accuracy" title="total accuracy">
-
-
-# References  
-Rethinking the Inception Architecture for Computer Vision [[1]][Paper]  
-Xception: Deep Learning with Depthwise Separable Convolutions [[2]][Paper1]  
-
-[paper]: https://arxiv.org/abs/1512.00567 "Paper"  
-[paper1]: https://arxiv.org/pdf/1610.02357v2.pdf "Paper1"  
+</p>
