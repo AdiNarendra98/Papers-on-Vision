@@ -5,8 +5,8 @@
 
 # How to train/validate model
 - Download vggface2 (for training) and lfw (for validation) datasets.
-  - https://www.robots.ox.ac.uk/%7Evgg/data/vgg_face2/
-  - http://vis-www.cs.umass.edu/lfw/lfw.tgz
+  - [**vggface2**](https://www.robots.ox.ac.uk/%7Evgg/data/vgg_face2/)
+  - [**lfw**]http://vis-www.cs.umass.edu/lfw/lfw.tgz
 
 - Align face image files by following David Sandberg's instruction (part of "Face alignment").
   - https://github.com/davidsandberg/facenet/wiki/Classifier-training-of-inception-resnet-v1
