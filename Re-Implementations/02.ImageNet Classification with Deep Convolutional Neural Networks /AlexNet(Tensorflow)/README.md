@@ -1,6 +1,6 @@
 # AlexNet- Image Classification with Deep Convolution Neural Networks
 
-- This repository contains implementation of [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- This repository contains implementation of [**AlexNet Paper**](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 (ImageNet Classification with Deep Convolutional Neural Networks) using **Tensorflow** 
 - The network tested with the
 [**CIFAR-10 dataset**](https://www.cs.toronto.edu/~kriz/cifar.html).
