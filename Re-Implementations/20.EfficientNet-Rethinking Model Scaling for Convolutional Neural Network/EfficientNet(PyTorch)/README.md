@@ -1,6 +1,6 @@
-# EfficientNet
+# EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
 
-https://arxiv.org/abs/1905.11946
+- This is the **PyTorch** implementation of the paper [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)
 
 ## Prerequisites
 
@@ -43,11 +43,5 @@ Source: https://github.com/tensorflow/tpu/tree/master/models/official/efficientn
 | efficientnet_b3 | 80.19% |
 | efficientnet_b4 | 82.27% |
 | efficientnet_b5 | 83.11% |
-| efficientnet_b6 |  |
-| efficientnet_b7 |  |
 
-## References
 
-- https://arxiv.org/abs/1905.11946
-- https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet
-- https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/mobilenet.py
