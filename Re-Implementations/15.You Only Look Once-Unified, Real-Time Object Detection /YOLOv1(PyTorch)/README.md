@@ -5,8 +5,8 @@
 ## Sample Results
 
 <div align="center">
-<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/15.You%20Only%20Look%20Once-Unified%2C%20Real-Time%20Object%20Detection%20/YOLOv1(PyTorch)/results/res_1.jpg" height="280px"/>
-<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Paper%20Summaries/15.You%20Only%20Look%20Once-Unified%2C%20Real-Time%20Object%20Detection%20/YOLOv1(PyTorch)/results/res_2.jpg" height="280px"/>
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Re-Implementations/15.You%20Only%20Look%20Once-Unified%2C%20Real-Time%20Object%20Detection%20/YOLOv1(PyTorch)/results/res_1.jpg" height="300px"/>
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Re-Implementations/15.You%20Only%20Look%20Once-Unified%2C%20Real-Time%20Object%20Detection%20/YOLOv1(PyTorch)/results/res_2.jpg" height="300px"/>
 </div>
 
 ## Dataset
