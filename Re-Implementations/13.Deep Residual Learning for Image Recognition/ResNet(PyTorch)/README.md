@@ -8,12 +8,13 @@
 
 - The main training procedure is described as a jupyter notebook in `main.ipynb` viewable [here](https://nbviewer.jupyter.org/github/a-martyn/resnet/blob/master/main.ipynb).
 
-- The goal is to classify tiny 32x32 pixel images into one of 10 classes. Some examples below. 
+- The goal is to **classify tiny 32x32 pixel images into one of 10 classes**. 
 
-- This implementation achieves 92.67% test set accuracy in this setting.
+- This implementation achieves **92.67% test set accuracy** in this setting.
 
 <p align='center'>
-![cifar10](./assets/cifar10.png)
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Re-Implementations/13.Deep%20Residual%20Learning%20for%20Image%20Recognition/ResNet(PyTorch)/assets/cifar10.png"<br><br>
+<b>Sample Outputs</b><br>
 </p>
 
 ## Getting Started
