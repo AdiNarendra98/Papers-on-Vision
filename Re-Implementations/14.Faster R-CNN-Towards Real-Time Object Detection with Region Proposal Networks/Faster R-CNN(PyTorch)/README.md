@@ -1,32 +1,15 @@
-<table border="0" width="10%">
-  <tr>
-    <td><img src="https://img1.github.io/tmp/1.jpg" height="80" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/2.jpg" height="80" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/3.jpg" height="80" width="82"></td>
-  </tr>
-  <tr>
-    <td><img src="https://img1.github.io/tmp/4.jpg" height="80" width="82"></td>
-    <td><img src="https://img.shields.io/github/stars/AlphaJia/pytorch-faster-rcnn.svg?style=social"></td>
-    <td><img src="https://img1.github.io/tmp/6.jpg" height="82" width="82"></td>
-  </tr>
-   <tr>
-    <td><img src="https://img1.github.io/tmp/7.jpg" height="82" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/8.jpg" height="82" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/9.jpg" height="82" width="82"></td>
-  </tr>
-</table>
+# Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
 
-# pytorch-faster-rcnn
-##  1. Introduction  
-Pytorch based implementation of faster rcnn framework.For details about faster R-CNN please refer to the paper [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497) by Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun
+- This is the **Pytorch** based implementation of [**Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks**](https://arxiv.org/abs/1506.01497) 
 
-
+## Overview
 This detection framework has the following features:  
 * It can be run as pure python code, and also pure based on pytorch framework, no need to build
 * It is easily trained by only running a train.py script, just set the data root dir
 * It has many backbone networks. like vgg, resnet-fpn, mobilenet, high resolution net(HRNet)
 * It can be a really detection framework. You only need to change super parameters in config file and get different models to compare different model
 * It's memory-efficient (about 3GB for vgg16)
+
 ##  2. Installation
 ### 2.1 Prerequisites
 * Python 2.7 or 3.5  
@@ -123,8 +106,12 @@ Some Key arguments:
 ```Shell
  python test.py
   ```
-##  6. Demo  
-![img](imgs/demo1.png)  
+##  6. Sample Result 
+
+<p align="center">
+<img src="https://github.com/AdiNarendra98/Papers-on-Vision/blob/main/Re-Implementations/14.Faster%20R-CNN-Towards%20Real-Time%20Object%20Detection%20with%20Region%20Proposal%20Networks/Faster%20R-CNN(PyTorch)/imgs/demo1.png"><br>
+</p> 
+
 ##  7. Framework Structure  
 #### backbone
 This module includes backbone feature extraction network    
