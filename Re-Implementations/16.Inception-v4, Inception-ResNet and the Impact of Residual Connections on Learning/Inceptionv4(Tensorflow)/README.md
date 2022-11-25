@@ -2,7 +2,6 @@
 
 - This is the **Keras** implementation of [**Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning**](http://arxiv.org/pdf/1602.07261v1.pdf)
 
-#### Split dataset into train and validation partitions
 
 ### Arguments
 - ### # of GPUs
