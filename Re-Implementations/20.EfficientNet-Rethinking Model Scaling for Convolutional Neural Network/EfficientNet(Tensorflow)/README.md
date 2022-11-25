@@ -1,7 +1,6 @@
-# EfficientNets
+# fficientNet: Rethinking Model Scaling for Convolutional Neural Networks
 
-[1] Mingxing Tan and Quoc V. Le.  EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. ICML 2019.
-   Arxiv link: https://arxiv.org/abs/1905.11946.
+This is the Tensorflow impelmentation of the paper [**EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks**](https://arxiv.org/abs/1905.11946)
 
 
 ## 1. About EfficientNet Models
@@ -66,4 +65,4 @@ Then train the model:
     # DATA_DIR is a GCS location to which both the GCE VM and associated Cloud TPU have read access.
 
 
-For more instructions, please refer to our tutorial: https://cloud.google.com/tpu/docs/tutorials/efficientnet
+
