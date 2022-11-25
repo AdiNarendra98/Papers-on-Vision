@@ -2,7 +2,7 @@
 
 - This is scratch implementation of the paper [**Visualizing and Understanding Convolutional neural networks**](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 
-- This implementation is uses keras with tensorflow backend.
+- This implementation is uses **keras with tensorflow backend**.
 
 ## The implementation is mainly divided into Two parts-
 1) **Feature visualization with Deconvnet.**
