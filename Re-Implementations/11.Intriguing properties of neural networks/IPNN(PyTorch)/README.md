@@ -1,5 +1,5 @@
-# IPNN-pytorch
-**A pytorch implementation of "[Intriguing properties of neural networks](https://arxiv.org/abs/1312.6199)"**
+# Intriguing properties of neural networks
+- This is a **PyTorch** implementation of [**Intriguing properties of neural networks**](https://arxiv.org/abs/1312.6199)
 
 ## Summary
 1. The natural basis is not better than a random basis for inspecting the properties of latent vectors.
@@ -15,10 +15,6 @@
 * pytorch==1.0.0   
 
 ## A limitation of this code
-In the paper, L-BFGS is used to solve equation with constraints.   
-However, in this code, backpropagation method is used instead of L-BFGS.   
-Hence, it doesn't cover "4.2 Exprimental results" 
-
-## Notice
-- This Repository won't be updated.
-- Please check [the package of adversarial attacks in pytorch](https://github.com/Harry24k/adversairal-attacks-pytorch)
+- In the paper, L-BFGS is used to solve equation with constraints.   
+- However, in this code, backpropagation method is used instead of L-BFGS.   
+- Hence, it doesn't cover "4.2 Exprimental results" of the paper
