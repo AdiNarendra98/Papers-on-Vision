@@ -5,8 +5,8 @@
 - All papers follow this structure:
   * **Paper Name**
     - **Original Paper**
-    - **Code Reimplementation**: Using PyTorch/Tensorflow(in most papers both)
-    - **Paper Summary with Report(in most of them)**
+    - **Code Reimplementation**: **Using PyTorch/Tensorflow**(both in most papers)
+    - **Paper Summary with Report**(in most papers)
     
 - This repo will be updated once every month.
  
